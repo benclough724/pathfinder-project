@@ -3,12 +3,9 @@ import Node from './Node/Node';
 
 import './Pathfinder.css';
 
-function app()
+function hello()
 {
 return
-        <div>
-        <p>
-            hello 
-        </p>
-    </div>
+
 }
+

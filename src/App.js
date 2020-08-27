@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Pathfinder from './Pathfinder/Pathfinder';
+import { Pathfinder } from './Pathfinder/Pathfinder';
 
 function App() {
   return (
@@ -10,4 +10,4 @@ function App() {
   );
 }
 
-export default App;
+export default Pathfinder;
