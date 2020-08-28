@@ -3,9 +3,17 @@ import Node from './Node/Node';
 
 import './Pathfinder.css';
 
-function hello()
+export default class Pathfinder extends Component
 {
-return
-
+   constructor(){
+    super();
+    this.state = {
+        grid: [], 
+};
 }
+}
+
+
+
+
 
