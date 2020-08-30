@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Node from './Node/Node';
 
 import './Pathfinder.css';
@@ -13,17 +13,24 @@ export default class Pathfinder extends Component
 }
 }
 
-grid() 
+class App extends React.Component
 {
+  render()
+  {
+      
+  }
+}
+
+const startGrid = () => {
     const grid = [];
-    for(row = 0; row < 30; row++){
-        const grid
-        for(col = 0; col < 60; col++){
+    for(let row = 0; row < 20; row++){
+        const CurrentRow = [];
+        for(let col = 0; col < 50; col++){
 
         }
-        grid.push(CurrentRow)
+        grid.push(CurrentRow);
     }
-    return grid;    
+    return startGrid;    
 };
 
 
