@@ -13,13 +13,13 @@ export default class Pathfinder extends Component
 }
 }
 
-class App extends React.Component
+render()
 {
-  render()
-  {
-      
+    return(
+
+    );
   }
-}
+
 
 const startGrid = () => {
     const grid = [];
