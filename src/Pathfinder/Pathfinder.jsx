@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Node from './Node/Node';
-import {render} from 'react-dom'
+import { render } from 'react-dom'
 
 import './Pathfinder.css';
 
 export default class Pathfinder extends React.Component
 {
-   constructor(){
-    super();
+   constructor(props){
+    super(props);
     this.state = {
         grid: [], 
 };
@@ -20,7 +20,7 @@ render()
         <div>
             {this.startGrid()}
         </div>
-    );
+    )
   }
 
 
