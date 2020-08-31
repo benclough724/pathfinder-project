@@ -4,10 +4,10 @@ import {render} from 'react-dom'
 
 import './Pathfinder.css';
 
-export default class Pathfinder extends React.sComponent
+export default class Pathfinder extends React.Component
 {
-   constructor(props){
-    super(props);
+   constructor(){
+    super();
     this.state = {
         grid: [], 
 };
