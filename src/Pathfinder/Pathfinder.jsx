@@ -1,27 +1,28 @@
 import React, { Component } from 'react';
-import Node from './Node/Node';
+//import Node from './Node/Node';
 import { render } from 'react-dom'
 
 import './Pathfinder.css';
 
-export default class Pathfinder extends React.Component
-{
-   constructor(props){
-    super(props);
-    this.state = {
-        grid: [], 
-};
-}
-}
+export default class Pathfinder extends Component {
+    constructor(props){
+     super(props);
+     this.state = {
+         grid: [], 
+ };
+ }
 
-render()
-{
-    return(
-        <div>
-            {this.startGrid()}
-        </div>
-    )
-  }
+ 
+ render() {
+ 
+     return (
+         <div>
+             {this.startGrid()}
+         </div>
+     );
+ 
+ }
+}
 
 
 const startGrid = () => {
